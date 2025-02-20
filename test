@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<tête>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=largeur-de-l'appareil, échelle-initiale=1.0">
+<title>TRAM-01 : Expérience Interactive</title>
+<style>
+corps {
+famille de polices : Arial, sans-serif ;
+alignement du texte : centre ;
+couleur d'arrière-plan : #f4f4f4 ;
+rembourrage : 20 px ;
+}
+.conteneur {
+largeur : 80 % ;
+marge : auto ;
+fond : blanc ;
+rembourrage : 20 px ;
+rayon de la bordure : 10 px ;
+boîte-ombre : 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+couleur: #2c3e50;
+}
+.bouton {
+affichage : bloc ;
+largeur : 80 % ;
+marge : 10 px auto ;
+rembourrage : 15 px ;
+arrière-plan : #3498db ;
+couleur : blanc ;
+décoration de texte : aucune ;
+rayon de la bordure : 5 px ;
+taille de police : 18 px ;
+transition : arrière-plan 0,3 s ;
+}
+.bouton:survoler {
+arrière-plan : #2980b9 ;
+}
+image {
+largeur : 100 % ;
+rayon de la bordure : 10 px ;
+marge supérieure : 10 px ;
+}
+.conteneur d'images {
+affichage : flex ;
+justifier-contenu : espace-autour ;
+marge supérieure : 10 px ;
+}
+.conteneur d'images img {
+largeur : 30 % ;
+}
+</style>
+</tête>
+<corps>
+<div class="conteneur">
+<h1>TRAM-01 : Un nouvel espoir contre les gliomes
+
+Emma Clinique </h1>
+<p>Cliquez sur une section pour explorer le projet :</p>
+
+<a href="#Les gliomes" class="button">📌 Les gliomes</a>
+<a href="#Limite des traitements actuels" class="button">📌 Limites des traitements actuels</a>
+<a href="#Trametinib" class="button">📌 Projet TRAM-01</a>
+<a href="#role" class="button">📌Mon rôle</a>
+<a href="#impact" class="button">📌 Impact attendu</a>
+<a href="#finale" class="button">📌Conclusion</a>
+</div>
+
+<div class="container" id="gliomes">
+<h2>📌 Les gliomes </h2>
+<p>Les gliomes sont des tumeurs cérébrales, se développant à partir de cellules gliales.
+Les gliomes de bas grade sont les tumeurs cérébrales les plus fréquentes en pédiatrie soit 30 %...
+Elles possèdent les voies optiques, les régions responsables de la motricité et les fonctions cognitives.</p>
+<div class="image-container">
+<img src="gliome1.png" alt="Image représentant un gliome 1">
+<img src="gliome2.png" alt="Image représentant un gliome 2">
+<img src="gliome3.png" alt="Image représentant un gliome 3">
+</div>
+</div>
+
+<div class="container" id="traitements">
+<h2>📌 Limites des traitements actuels</h2>
+<img src="traitement.png" alt="Image d'un traitement de chimiothérapie">
+<p>Actuellement, la chirurgie est souvent impossible en raison de l'emplacement de la tumeur et de la chimiothérapie échoue chez 50 % des patients et présente des effets secondaires lourds.</p>
+</div>
+
+<div class="container" id="tramétinib">
+<h2>📌 Projet TRAM-01</h2>
+<img src="trametinib.png" alt="Illustration de l'action du trametinib sur la voie MAPK/ERK">
+<img src="trametinib.jpg" alt="Illustration de l'action du trametinib sur la voie MAPK/ERK">
+<p></p>
+</div>
+
+<div class="container" id="role">
+<h2>📌 Mon rôle</h2>
+<img src="role.png" alt="Image illustrant l'analyse des données médicales">
+<img src="role.jpg" alt="Image illustrant l'analyse des données médicales">
+<p> </p>
+</div>
+
+<div class="container" id="impact">
+<h2>📌 Impact attendu</h2>
+<img src="impact.png" alt="Graphique illustrant l'amélioration de la qualité de vie">
+<img src="impact2.png" alt="Graphique illustrant l'amélioration de la qualité de vie">
+<p>Meilleure tolérance, réduction tumorale, et de la qualité de vie physique, émotionnelle, sociale et scolaire.</p>
+</div>
+
+<div class="container" id="finale">
+<h2>📌Conclusion</h2>
+<img src="conclusion.jpg" alt="Image d'un enfant regardant un ciel étoilé">
+<p>TRAM-01 pourrait révolutionner le traitement des gliomes pédiatriques en ouvrant la voie vers de nouvelles thérapies en exploitant des combinaisons de nouvelles molécules.</p>
+</div>
+</body>
+</html>
